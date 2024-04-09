@@ -15,7 +15,9 @@ class OverridingFinalMethod extends finalMethodClass{
 public class finalMethod {
     public static void main(String args[]){
         finalMethodClass obj = new finalMethodClass();
+        OverridingFinalMethod obj1 = new OverridingFinalMethod();
         obj.display();
+        obj1.display();
     }
 }
 

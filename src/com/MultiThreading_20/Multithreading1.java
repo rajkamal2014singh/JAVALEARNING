@@ -14,7 +14,7 @@ package com.MultiThreading_20;
  *  Thread Life Cycle :
  *  Threads have 4 sates. They may be in any one of the states.
  *  1.New :- When the object of thread class has been created then it is said to be in new state.
- *  2.Runnable :- When the start method is called then thread is said to be in Runnable state.
+ *  2.Runnable :- When the thread is start this method is called then thread is said to be in Runnable state.
  *  Running :-
  *  3.Non-Runnable :- When thread is alive but it is not running.
  *  4.Terminated :- In this state, thread exits from run() method.
@@ -25,7 +25,7 @@ package com.MultiThreading_20;
  *
  *  Creating thread in Java :
  *  There are two ways to do so :
- *  1.By extending Runnable interface   //thread class
+ *  1.By extending Thread class and overriding run method   //thread class
  *  2.By implementing Runnable interface
  *
  *  Creating Thread by extending Thread

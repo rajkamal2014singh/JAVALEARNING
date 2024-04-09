@@ -27,9 +27,13 @@ public class InstanaceOfOperator
         System.out.println(obj instanceof C);
         System.out.println(obj instanceof B);
         System.out.println(obj instanceof A);
-
-        C obj1 = null;
+        B obj1 = new B();
         System.out.println(obj1 instanceof C);
+        System.out.println(obj1 instanceof B);
+        System.out.println(obj1 instanceof A);
+
+        C obj2 = null;
+        System.out.println(obj2 instanceof C);
     }
 }
 //previous finalKeyWord

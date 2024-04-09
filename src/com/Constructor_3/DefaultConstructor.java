@@ -11,7 +11,6 @@ package com.Constructor_3;
  * */
 public class DefaultConstructor
 {
-
     int roll;
     String name;
     public DefaultConstructor()
